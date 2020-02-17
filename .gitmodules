@@ -1,7 +1,6 @@
-[submodule "Moniez Rails Backend API"]
-	path = MoniezBackend
-	url = https://github.com/mikeg1440/Moniez-Backend
-  
- [submodule "Moniez Frontend"]
-	path = MoniezFrontend
+[submodule "Moniez-Frontend"]
+	path = Moniez-Frontend
 	url = https://github.com/mikeg1440/Moniez-Frontend
+[submodule "Moniez-Backend"]
+	path = Moniez-Backend
+	url = https://github.com/mikeg1440/Moniez-Backend
