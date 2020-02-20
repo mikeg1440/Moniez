@@ -1,7 +1,3 @@
-<!--
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
--->
 
 
 
@@ -27,8 +23,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/mikeg1440/repo">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/mikeg1440/Moniez">
+    <img src="https://github.com/mikeg1440/Moniez-Frontend/blob/master/src/images/moniez-green-logo.png" alt="Moniez Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Moniez</h3>
@@ -36,14 +32,11 @@
   <p align="center">
     A personal budgeting application with a Ruby on Rails API back end and a React.js front end
     <br />
-    <a href="https://github.com/mikeg1440/repo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/mikeg1440/repo">View Demo</a>
+    <a href="https://github.com/mikeg1440/Moniez">View Demo</a>
     ·
-    <a href="https://github.com/mikeg1440/repo/issues">Report Bug</a>
+    <a href="https://github.com/mikeg1440/Moniez/issues">Report a Bug</a>
     ·
-    <a href="https://github.com/mikeg1440/repo/issues">Request Feature</a>
+    <a href="https://github.com/mikeg1440/Moniez/issues">Request Feature</a>
   </p>
 </p>
 
@@ -69,19 +62,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+[![Moniez Dashboard Screen Shot][product-screenshot]](https://github.com/mikeg1440/Moniez-Frontend/blob/master/src/images/dashboard-screenshot.png)
 
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [React.js](https://reactjs.org/)
+  * [Recharts](http://recharts.org/en-US/)
+  * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+* [Ruby on Rails](https://rubyonrails.org/)
+  * [Simple Token Authentication](https://github.com/gonzalo-bulnes/simple_token_authentication)
+  * [Active Model Serializers](https://github.com/rails-api/active_model_serializers)
 
 
 <!-- GETTING STARTED -->
@@ -96,33 +87,50 @@ This is an example of how to list things you need to use the software and how to
 ```sh
 npm install npm@latest -g
 ```
+* [Ruby on Rails installed](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm)
+
 
 ### Installation
- 
-1. Clone the repo
+
+### Backend API
+1. Clone the https://github.com/mikeg1440/Moniez
 ```sh
-git clone https://github.com/mikeg1440/repo.git
+git clone https://github.com/mikeg1440/Moniez.git
 ```
-2. Install NPM packages
-```sh
-npm install
-```
+2. Change to the `Moniez-Backend` folder
+3. Run `bundle install` to install gems
+4. Run `rails db:setup` to create database and run migrations
+5. Finally to run the API server run `rails s`
+
+### Frontend Interface
+1. Change the `Moniez-Frontend` folder
+2. Install NPM packages `npm install`
+3. ##### `yarn start`
+  Runs the app in the development mode.<br />
+  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. ##### `yarn build` to build the application (not needed for development)
+  Builds the app for production to the `build` folder.<br />
+  It correctly bundles React in production mode and optimizes the build for the best performance.
+
+
+
+
+
+
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+This can be useful for people looking to get an idea of where their money is going and how to best cut expenses so you can save as much as possible.  Users have the option of putting entering lists of Earnings, Expenses, and Bills that will then be calculated to show either how much money your left with to save or how much you r over spending by.  Each budget when selected is also rendered as a circle pie chart with each category displayed to get a better idea of how even or uneven your budget categories look.
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/mikeg1440/repo/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mikeg1440/Moniez/issues) for a list of proposed features (and known issues).
 
 
 
@@ -149,18 +157,18 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Michael Gaudreau - [@MyLogicBytes1](https://twitter.com/MyLogicBytes1) - cyberct@kbox.li
 
-Project Link: [https://github.com/mikeg1440/repo](https://github.com/mikeg1440/repo)
+Project Link: [https://github.com/mikeg1440/Moniez](https://github.com/mikeg1440/Moniez)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ## Acknowledgements
 
 * []()
 * []()
-* []()
+* []() -->
 
 
 
@@ -180,4 +188,4 @@ Project Link: [https://github.com/mikeg1440/repo](https://github.com/mikeg1440/r
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/mikeg1440/Moniez-Frontend/blob/master/src/images/dashboard-screenshot.png
