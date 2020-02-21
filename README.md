@@ -79,15 +79,16 @@ This is an example of how to list things you need to use the software and how to
 npm install npm@latest -g
 ```
 * [Ruby on Rails installed](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm)
-
+* [PostgreSQL](https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-windows/)
 
 ### Installation
 
 ### Backend API
 1. Clone the https://github.com/mikeg1440/Moniez
 ```sh
-git clone https://github.com/mikeg1440/Moniez.git
+git clone --recursive https://github.com/mikeg1440/Moniez.git
 ```
+  ** NOTE ** If you forget the `--recursive` option when cloning the repo you can pull down the front and back end repos by running `git submodule update --init` and that will pull each repo
 2. Change to the `Moniez-Backend` folder
 3. Run `bundle install` to install gems
 4. Configure PostgreSQL credentials (either with [encrypted credentials](https://mikeg1440.github.io/2020/02/12/configure-rails-with-postgresql-using-encrypted-credentials/) or a gem like [DotEnv](https://github.com/bkeepers/dotenv))
