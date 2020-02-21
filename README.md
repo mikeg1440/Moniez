@@ -1,16 +1,6 @@
 
 
-
-
-
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -71,6 +61,7 @@
   * [Recharts](http://recharts.org/en-US/)
   * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 * [Ruby on Rails](https://rubyonrails.org/)
+  * [PostgreSQL](https://www.postgresql.org/)
   * [Simple Token Authentication](https://github.com/gonzalo-bulnes/simple_token_authentication)
   * [Active Model Serializers](https://github.com/rails-api/active_model_serializers)
 
@@ -99,8 +90,10 @@ git clone https://github.com/mikeg1440/Moniez.git
 ```
 2. Change to the `Moniez-Backend` folder
 3. Run `bundle install` to install gems
-4. Run `rails db:setup` to create database and run migrations
-5. Finally to run the API server run `rails s`
+4. Configure PostgreSQL credentials (either with [encrypted credentials](https://mikeg1440.github.io/2020/02/12/configure-rails-with-postgresql-using-encrypted-credentials/) or a gem like [DotEnv](https://github.com/bkeepers/dotenv))
+  ** NOTE ** If you get a error after setting credentials then delete any existing encrypted credential file by running `rm config/credentials.yml.enc` then try again.
+5. Run `rails db:setup` to create database and run migrations
+6. Finally to run the API server run `rails s`
 
 ### Frontend Interface
 1. Change the `Moniez-Frontend` folder
