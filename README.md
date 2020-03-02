@@ -78,7 +78,8 @@ This is an example of how to list things you need to use the software and how to
 ```sh
 npm install npm@latest -g
 ```
-* [Ruby on Rails installed](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm)
+* [Ruby on Rails >= 2.6.1 installed](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm)
+  * [Bundler](https://bundler.io/)
 * [PostgreSQL](https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-windows/)
 
 ### Installation
@@ -92,7 +93,7 @@ git clone --recursive https://github.com/mikeg1440/Moniez.git
 
 2. Change to the `Moniez-Backend` folder
 3. Run `bundle install` to install gems
-4. Configure PostgreSQL credentials (either with [encrypted credentials](https://mikeg1440.github.io/2020/02/12/configure-rails-with-postgresql-using-encrypted-credentials/) or a gem like [DotEnv](https://github.com/bkeepers/dotenv))
+4. [Configure PostgreSQL](https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e) and add credentials to back end (either with [encrypted credentials](https://mikeg1440.github.io/2020/02/12/configure-rails-with-postgresql-using-encrypted-credentials/) or a gem like [DotEnv](https://github.com/bkeepers/dotenv))
   ** NOTE ** If you get a error after setting credentials then delete any existing encrypted credential file by running `rm config/credentials.yml.enc` then try again.
 5. Run `rails db:setup` to create database and run migrations
 6. Finally to run the API server run `rails s`
@@ -103,7 +104,7 @@ git clone --recursive https://github.com/mikeg1440/Moniez.git
 3. ##### `yarn start`
   Runs the app in the development mode.<br />
   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-  
+
 4. ##### `yarn build` to build the application (not needed for development)
   Builds the app for production to the `build` folder.<br />
   It correctly bundles React in production mode and optimizes the build for the best performance.
