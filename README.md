@@ -74,10 +74,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+* [npm](https://www.npmjs.com/get-npm) (Updated to latest ->  `npm install npm@latest -g`)
 * [Ruby on Rails >= 2.6.1 installed](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm)
   * [Bundler](https://bundler.io/)
 * [PostgreSQL](https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-windows/)
