@@ -89,6 +89,7 @@ npm install npm@latest -g
 git clone --recursive https://github.com/mikeg1440/Moniez.git
 ```
   ** NOTE ** If you forget the `--recursive` option when cloning the repo you can pull down the front and back end repos by running `git submodule update --init` and that will pull each repo
+
 2. Change to the `Moniez-Backend` folder
 3. Run `bundle install` to install gems
 4. Configure PostgreSQL credentials (either with [encrypted credentials](https://mikeg1440.github.io/2020/02/12/configure-rails-with-postgresql-using-encrypted-credentials/) or a gem like [DotEnv](https://github.com/bkeepers/dotenv))
@@ -102,6 +103,7 @@ git clone --recursive https://github.com/mikeg1440/Moniez.git
 3. ##### `yarn start`
   Runs the app in the development mode.<br />
   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  
 4. ##### `yarn build` to build the application (not needed for development)
   Builds the app for production to the `build` folder.<br />
   It correctly bundles React in production mode and optimizes the build for the best performance.
