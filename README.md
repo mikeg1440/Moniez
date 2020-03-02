@@ -91,12 +91,18 @@ git clone --recursive https://github.com/mikeg1440/Moniez.git
 2. Change to the `Moniez-Backend` folder
 3. Run `bundle install` to install gems
 4. [Configure PostgreSQL](https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e) and add credentials to back end (either with [encrypted credentials](https://mikeg1440.github.io/2020/02/12/configure-rails-with-postgresql-using-encrypted-credentials/) or a gem like [DotEnv](https://github.com/bkeepers/dotenv))
-  ** NOTE ** If you get a error after setting credentials then delete any existing encrypted credential file by running `rm config/credentials.yml.enc` then try again.
+  * The project is set up with rails encrypted credentials and is already configured to look for the database username and password in the following format in the credential store, so you must enter those in first (refer to link above for details on how to edit the encrypted credentials)
+  ```
+  database:
+      username: [YOUR DB USERNAME]
+      password: [YOUR DB PASSWORD]  
+  ```
+  * Since the project is using rails credentials store if you want to use some other way to handle credentials like with the dotenv gem then you need to change the `config/database.yml` file to grab the username and password from where ever you stored the information instead of the rails encrypted credential store.
 5. Run `rails db:setup` to create database and run migrations
 6. Finally to run the API server run `rails s`
 
 ### Frontend Interface
-1. Change the `Moniez-Frontend` folder
+1. Change to the `Moniez-Frontend` folder
 2. Install NPM packages `npm install`
 3. ##### `yarn start`
   Runs the app in the development mode.<br />
