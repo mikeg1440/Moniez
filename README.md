@@ -50,10 +50,11 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About Moniez
 
 [![Moniez Dashboard Screen Shot][product-screenshot]](https://github.com/mikeg1440/Moniez-Frontend/blob/master/src/images/dashboard-screenshot.png)
 
+Moniez is a simple budgeting application that allows users to create multiple budgets and input earnings, bills, and expenses.  Each budget category has its own view where existing entries are sorted from largest to smallest amount and users can add new entries or delete existing ones.  After a user has populated any of the budget categories the dashboard will display a pie chart that breaks down each category in terms of percentage and dollar amount for better comparison.  Each user has their own account that is password protected for data privacy.
 
 ### Built With
 
