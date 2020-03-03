@@ -60,6 +60,7 @@ Moniez is a simple budgeting application that allows users to create multiple bu
 ### Built With
 
 * [React.js](https://reactjs.org/)
+  * [React Bootstrap](https://react-bootstrap.github.io/)
   * [Recharts](http://recharts.org/en-US/)
   * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
   * [Redux](https://redux.js.org/)
