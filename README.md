@@ -43,6 +43,7 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
+* [Future Features](#future-features)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -50,7 +51,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About Moniez
+## About The Project
 
 [![Moniez Dashboard Screen Shot][product-screenshot]](https://github.com/mikeg1440/Moniez-Frontend/blob/master/src/images/dashboard-screenshot.png)
 
@@ -144,6 +145,16 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
+
+
+## Future Features
+These are ideas for features to implement in future development of this application.
+  * Save as file option that saves the data and pie chart of a budget to a file.
+  * Add option for email notifications to update budget monthly.
+  * Add password reset functionality.
+  * Create edit views for user info and editing of existing budgets, earnings, bills, and expenses.
+  * Create a admin role with elevated privileges for the app that can manage users(reset passwords, delete inactive users, change app settings).
+  * Add ability for admin users to manage(create, edit, delete) categories for each of the budget categories.
 
 <!-- LICENSE -->
 ## License
