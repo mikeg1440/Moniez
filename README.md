@@ -149,6 +149,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Future Features
 These are ideas for features to implement in future development of this application.
+  * Add tests for front and back ends.
   * Save as file option that saves the data and pie chart of a budget to a file.
   * Add option for email notifications to update budget monthly.
   * Add password reset functionality.
