@@ -61,6 +61,8 @@ Moniez is a simple budgeting application that allows users to create multiple bu
 * [React.js](https://reactjs.org/)
   * [Recharts](http://recharts.org/en-US/)
   * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+  * [Redux](https://redux.js.org/)
+  * [Redux-Thunk](https://github.com/reduxjs/redux-thunk)
 * [Ruby on Rails](https://rubyonrails.org/)
   * [PostgreSQL](https://www.postgresql.org/)
   * [Simple Token Authentication](https://github.com/gonzalo-bulnes/simple_token_authentication)
