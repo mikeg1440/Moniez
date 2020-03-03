@@ -159,7 +159,7 @@ These are ideas for features to implement in future development of this applicat
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/mikeg1440/Moniez/LICENSE.txt) for more information.
 
 
 
