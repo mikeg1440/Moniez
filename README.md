@@ -74,7 +74,8 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This is a list of software that you will need to get Moniez up and running.
+
 * [npm](https://www.npmjs.com/get-npm) (Updated to latest ->  `npm install npm@latest -g`)
 * [Ruby on Rails >= 2.6.1 installed](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm)
   * [Bundler](https://bundler.io/)
@@ -99,6 +100,7 @@ git clone --recursive https://github.com/mikeg1440/Moniez.git
       password: [YOUR DB PASSWORD]  
   ```
   * Since the project is using rails credentials store if you want to use some other way to handle credentials like with the dotenv gem then you need to change the `config/database.yml` file to grab the username and password from where ever you stored the information instead of the rails encrypted credential store.
+  * Make sure the database is already running, on Debian/Ubuntu systems `systemctl status postgresql`.  If it does not show the `postgresql.service` as `active` then you can run the following to start it, `systemctl start postgresql`.
 5. Run `rails db:setup` to create database and run migrations
 6. Finally to run the API server run `rails s`
 
